@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&display=swap');
+
+/* #--- Reset styles ---# */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.89;
+  color: #848789;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*style for index*/
+body{
+  font:400 18px/1 'lato', Arial, Tahoma, sans-serif;
+  background-repeat: no-repeat; 
+  background-position: 50%;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 800px;
+}
+
+.header{
+  background-repeat: no-repeat; 
+  background-position: 50%;
+  background-size: cover;
+  height: 270px;
+}
+
+.container{
+  max-width: 1630px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+  font-weight: 700;
+
+}
+
+.navigation li{
+  padding: 20px;
+}
+
+.navigation-title{
+  text-align: center;
+  color: #ffffff;
+}
+
+.navigation li:hover{
+  transform: scale(1.3);
+}
